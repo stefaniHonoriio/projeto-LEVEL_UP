@@ -1,0 +1,371 @@
+.fundo{
+background-attachment: fixed;
+background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-image: linear-gradient(to right,#a01532,#fab915 );
+	width: 70%;
+	border-radius: 15px;
+	font-family: 'Gotham';
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+	font-family: 'Gotham';
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #00000071;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+}
+.fundo{
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915055694355501096/Prancheta_1.png);
+	background-repeat: repeat-y;
+}
+.logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 60px;
+	width: 140px;
+	vertical-align: middle;
+	z-index: 1;
+}  
+a.link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+form input {
+    height: 45px;
+	width: 150px;
+	background-color: #191919;
+	border-radius: 12px;
+	text-align: center;
+	margin-left: 78%;
+	color: #a3a3a3;
+
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border: none;
+;
+
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: #a3a3a3;
+	position: absolute;
+	left: 89%;
+	top: 115px;
+	
+}
+
+form button:hover {
+    color: white;
+}
+header {
+    align-items: center;
+    padding: 1em;
+	display: block;
+
+}
+.card {
+	position: relative;
+	
+	width: 920px;
+	height: 350px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	
+  
+	border-radius: 17px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 900;
+  
+	display: block;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .card_part {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 7;
+  
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat:no-repeat ;
+	
+	transform: translateX( 920px );
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915749122080927824/01.png);
+	
+
+	
+	animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+  }
+  
+  
+  .card_part.card_part-two {
+	z-index: 6;
+	background-size: cover;
+	background-repeat:no-repeat ;
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915749122382901249/02.png);
+	animation-delay: 7s;
+  }
+  
+  .card_part.card_part-three {
+	z-index: 5;
+	background-size: cover;
+	background-repeat:no-repeat ;
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915749122680692756/03.png);
+	animation-delay: 14s;
+  }
+  
+  .card_part.card_part-four {
+	z-index: 4;
+	background-size: cover;
+	background-repeat:no-repeat ;
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915749122911371284/04.png );
+	animation-delay: 21s;
+  }
+  
+  
+  @keyframes opaqTransition {
+	3% { transform: translateX( 0 ); }
+	25% { transform: translateX( 0 ); }
+	28% { transform: translateX( -920px ); }
+	100% { transform: translateX( -920px ); }
+  }
+  .bloco1{
+	width: 255px;
+	height: 287px;
+	margin-top: 22.5px;
+	margin-left:10% ;
+  }
+  .bloco2{
+	width: 255px;
+	height: 287px;
+	margin-top: 22.5px;
+  }
+  .bloco3{
+	width: 255px;
+	height: 287px;
+	margin-top: 22.5px;
+  }
+  .bloco4{
+	width: 255px;
+	height: 287px;
+	margin-top: 22.5px;
+  }
+  .bloco5{
+	width: 255px;
+	height: 287px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px;
+	margin-left:10% ;
+  }
+  .bloco6{
+	width: 255px;
+	height: 287px;
+	margin-top: 22.5px;
+  }
+  .bloco7{
+	width: 255px;
+	height: 287px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px;
+	
+  }
+  .bloco8{
+	width: 255px;
+	height: 287px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px;
+  }
+.todos{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	left: 35%;
+}
+.bloco9{
+	width: 340px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px;
+	margin-left:10% ;
+	transform: scale(0.9);
+  }
+  .bloco10{
+	width: 340px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px;
+	transform: scale(0.9);
+  }
+  .bloco11{
+	width: 340px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22.5px;
+	transform: scale(0.9);
+	
+  }
+  .bloco9:hover{
+	transform: scale(1);
+	background-image:linear-gradient(to top,#ffffff4f,#ffffff00) ;
+  }
+  .bloco10:hover{
+	transform: scale(1);
+  }
+  .bloco11:hover{
+	transform: scale(1);
+  }
+  .fundo2{
+background-attachment: fixed;
+background-size: cover;
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915055694355501096/Prancheta_1.png);
+	background-repeat: repeat-y;
+}
+.form{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	width: 50%;
+}
+.banner{
+	width: 100%;
+	background-color:#030303;
+	margin-top: 3%;
+	background-image:url(https://cdn.discordapp.com/attachments/903425891533729824/916729246049792130/rodape.png) ;
+	height: 85px;
+	background-repeat: no-repeat;
+	background-position: center;
+  }
+  .fundo3{
+	background-attachment: fixed;
+	background-size: cover;
+		background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915055694355501096/Prancheta_1.png);
+		background-repeat: repeat-y;
+  }
+  .img{
+	  height: 420px;
+	  width: 1000px;
+	  background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/916740220265828412/Sem_Titulo-5.png);
+	  background-size:contain ;
+	  background-color: #191919;
+	  border-radius: 25px;
+	  background-repeat: no-repeat;
+	  background-position: center;
+  }
+  .bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	background-size: cover; 
+}
+.fundo4{
+	background-attachment: fixed;
+	background-size: cover;
+		background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/915055694355501096/Prancheta_1.png);
+		background-repeat: repeat-y;
+  }
+  .bloco11IMG{
+	width: 720px;
+	height: 275px;
+	background-color: #0A5573;
+	display: block;
+	margin-top: 5%;
+  }
+  .buttonClass {
+    font-size:30px;
+    font-family:Gotham;
+    width:110px;
+    height:40px;
+    border-radius: 15px;
+    color:#fff;
+    border-color:#a01532;
+    font-weight:bold;
+    background:#a01532;
+    margin-left: 1000px;
+    margin-top: 5%;
+    font-size: 15pt;
+    text-align: center;
+    line-height: 40px;
+  }
+  .buttonClass:hover {
+    background: #fff;
+    color:#a01532;
+  }
+  .qd{
+	border: 1px solid white;
+	color: white;
+	display: block; 
+	margin-left: 10%; 
+	margin-right: 10%;
+	border-radius: 5px;
+	margin-top: 100px;
+  }
+  .img2{
+	height: 420px;
+	width: 1000px;
+	background-image: url(https://cdn.discordapp.com/attachments/903425891533729824/917581631957663764/WADWA.png);
+	background-size:contain ;
+	background-color: #191919;
+	border-radius: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
